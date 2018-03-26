@@ -1,0 +1,6 @@
+#!/bin/bash
+#PBS -N gvsasym
+#PBS -m be
+#PBS -q medium
+cd ${HOME}/sym/nz150
+/usr/local/bin/matlab matlab -r -nodisplay -nojvm 'kvc'
